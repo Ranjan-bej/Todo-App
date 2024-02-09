@@ -1,0 +1,58 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.inputBox{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.inputText{
+  width: 30vw;
+  height: 2.5rem;
+  border-radius: 15px;
+  padding: 0.3rem;
+  text-align: left;
+  border: 1px solid rgb(99, 99, 99);
+  outline: none;
+}
+.inputAdd{
+  margin-left: 1.1rem;
+  color: rgb(0, 200, 255);
+  font-size: 2rem;
+  cursor: pointer;
+}
+.items{
+  width:31vw;
+  height: 3rem;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem;
+  background-color: rgb(65, 63, 63);
+  position: relative;
+  right: 30px;
+}
+.itemText{
+padding-left: 1.3rem;
+}
+.itemIcons{
+padding-right: 1.3rem;
+width: 5rem;
+display: flex;
+justify-content: space-around;
+height: 100%;
+align-items: center;
+}
+.delete{
+  color: rgb(232, 55, 55);
+}
+.edit{
+  color: greenyellow;
+}
+.removeAll{
+  margin-top: 3rem;
+}
